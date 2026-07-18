@@ -893,3 +893,15 @@ iframe.google-form {
     }
 
 }
+.teacher-photo {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.teacher-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+}
