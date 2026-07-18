@@ -462,3 +462,18 @@ section{
 }
 
 }
+@media (max-width: 768px) {
+
+    .teacher-photo {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .teacher-photo img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
