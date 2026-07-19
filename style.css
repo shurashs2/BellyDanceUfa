@@ -14,7 +14,8 @@ html{
 
 body{
     font-family:'Montserrat',sans-serif;
-    background:#f8fdf8;
+    /* цвет верхушки  */
+    background:#e9ddcf;
     /* текст о школе */
     color:#2f241f;
     overflow-x:hidden;
@@ -53,7 +54,7 @@ h2{
     text-align:center;
     margin-bottom:25px;
     /* руководитель школы */
-    color:#7b5b2c;
+    color:#3e2d26;
 }
 
 /* ========================================
@@ -170,7 +171,7 @@ text-align:center;
 }
 
 .hero-content{
-
+/* цвет текса на главном */
 color:white;
 
 max-width:850px;
@@ -281,12 +282,17 @@ gap:70px;
 
 }
 
-.teacher-image img{
+.teacher-photo{
+    width:100%;
+    max-width:500px;
+    margin:0 auto;
+}
 
-border-radius:25px;
-
-box-shadow:0 20px 45px rgba(0,0,0,.15);
-
+.teacher-photo img{
+    width:100%;
+    height:auto;
+    border-radius:25px;
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
 }
 
 .teacher-info h3{
@@ -294,8 +300,8 @@ box-shadow:0 20px 45px rgba(0,0,0,.15);
 font-size:36px;
 
 margin:20px 0;
-
-color:#b8860b;
+/* цвет фио руководителя */
+color:#7b5b2c;
 
 }
 
@@ -413,8 +419,8 @@ font-size:18px;
 }
 
 .price-card {
-
-    background: white;
+/* цвет ячеек в ценах */
+    background: #f5efe6;
 
     border-radius: 25px;
 
@@ -423,8 +429,8 @@ font-size:18px;
     position: relative;
 
     transition: .4s;
-
-    box-shadow: 0 20px 45px rgba(0,0,0,.08);
+/* цвет тени */
+    box-shadow: 0 20px 45px rgba(47, 36, 31, 0.35);
 
 }
 
@@ -483,7 +489,7 @@ font-size:18px;
 
 .gold {
 /* цвет фона расписания и цен */
-    background: #cdb79e;
+    background: #e9ddcf;
 
 }
 
@@ -702,7 +708,7 @@ border:none;
 
 border-radius:50%;
 
-background:#d4af37;
+background:#3e2d26;
 
 color:white;
 
@@ -888,20 +894,21 @@ iframe.google-form {
     .burger span {
         width: 30px;
         height: 3px;
-        background: #000;
+        /* цвет меню три полоски */
+        background: #3e2d26;
         display: block;
     }
 
 }
-.teacher-photo {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
+.slide{
+    display:none;
 }
 
-.teacher-photo img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 25px;
+.slide.active{
+    display:block;
+}
+
+.slider{
+    max-width:420px;
+    margin:auto;
 }
